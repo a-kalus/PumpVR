@@ -1,6 +1,6 @@
 # PumpVR
  Rendering the weight of objects and avatars through liquid mass transfer in virtual reality
- 
+ ## Circuit
 ![Alt text](/PumpVR_electronics_design.png?raw=true "Title")
 | Nr | Part | Example |
 | ------ | ------ | ------ |
