@@ -1,7 +1,8 @@
 # PumpVR
- Rendering the weight of objects and avatars through liquid mass transfer in virtual reality
+ PumpVR renders the weight of objects and avatars in Virtual Reality through liquid mass transfer.
+
  ## Circuit
- To build PumpVR create the circuit as illustrated below:
+ To build PumpVR create the circuit as follows:
  
 ![Alt text](/PumpVR_electronics_design.png?raw=true "Title")
 | Nr | Part | Example |
@@ -16,8 +17,8 @@
 
 
  ## Hydraulic system
-The hydraulic parts must be installed as follows. You can use [these water bags (1 × 1l, 2 × 0.5l)](https://www.amazon.de/gp/product/B08C5J4RBN?psc=1) and conventional hoses with an inner diameter of 10 mm.
+To assemble the hydraulics please refer to the images below. You can use [these water bags (1 × 1l, 2 × 0.5l)](https://www.amazon.de/gp/product/B08C5J4RBN?psc=1) and conventional hoses with an inner diameter of 10 mm.
 ![chi23-489-fig3](https://user-images.githubusercontent.com/13471928/218504137-cfad9c12-9fdd-4ba1-9ad8-4d6968fc639d.jpg)
 
 
-
+![pumpvr_wide](https://user-images.githubusercontent.com/13471928/218719153-8f31c4ac-8183-4378-9807-cbbdb411e295.jpg)
