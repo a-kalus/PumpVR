@@ -1,5 +1,7 @@
 # PumpVR
  PumpVR renders the weight of objects and avatars in Virtual Reality through liquid mass transfer.
+ 
+ See `pump_vr.ino` for the arduino sketch and `arduinoCtrler.cs` for the Unity integration. For the hardware implementation see below.
 
  ## Circuit
  To build PumpVR create the circuit as follows:
