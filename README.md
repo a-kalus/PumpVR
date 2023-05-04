@@ -1,7 +1,36 @@
 # PumpVR
- PumpVR renders the weight of objects and avatars in Virtual Reality through liquid mass transfer.
+ PumpVR renders the weight of objects and avatars in Virtual Reality through liquid mass transfer. The system was presented in the paper <a href="https://doi.org/10.1145/3544548.3581172">PumpVR: Rendering the Weight of Objects and Avatars through Liquid Mass Transfer in Virtual Reality.</a> Please take a look at the article to get an overview of the project.
+
  
- See `pump_vr.ino` for the arduino sketch and `arduinoCtrler.cs` for the Unity integration. For the hardware implementation see below.
+See `pump_vr.ino` for the arduino sketch and `arduinoCtrler.cs` for the Unity integration. For the hardware implementation see below.
+ 
+
+
+
+ 
+ ## Reference
+ To cite this work, please use the following reference information.
+ 
+
+ ```
+ @inproceedings{10.1145/3544548.3581172,
+author = {Kalus, Alexander and Kocur, Martin and Klein, Johannes and Mayer, Manuel and Henze, Niels},
+title = {PumpVR: Rendering the Weight of Objects and Avatars through Liquid Mass Transfer in Virtual Reality},
+year = {2023},
+isbn = {9781450394215},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3544548.3581172},
+doi = {10.1145/3544548.3581172},
+abstract = {Perceiving objects’ and avatars’ weight in Virtual Reality (VR) is important to understand their properties and naturally interact with them. However, commercial VR controllers cannot render weight. Controllers presented by previous work are single-handed, slow, or only render a small mass. In this paper, we present PumpVR that renders weight by varying the controllers’ mass according to the properties of virtual objects or bodies. Using a bi-directional pump and solenoid valves, the system changes the controllers’ absolute weight by transferring water in or out with an average error of less than 5%. We implemented VR use cases with objects and avatars of different weights to compare the system with standard controllers. A study with 24 participants revealed significantly higher realism and enjoyment when using PumpVR to interact with virtual objects. Using the system to render body weight had significant effects on virtual embodiment, perceived exertion, and self-perceived fitness.},
+booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+articleno = {263},
+numpages = {13},
+keywords = {virtual reality, virtual embodiment, weight interface, haptic controllers, weight perception},
+location = {Hamburg, Germany},
+series = {CHI '23}
+}
+```
 
  ## Circuit
  To build PumpVR create the circuit as follows:
